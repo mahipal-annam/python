@@ -11,6 +11,10 @@
 
 # COMMAND ----------
 
+# MAGIC %sh ls -lt
+
+# COMMAND ----------
+
 # MAGIC %sh apt-get update
 
 # COMMAND ----------
