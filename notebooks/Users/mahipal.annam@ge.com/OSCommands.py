@@ -31,7 +31,7 @@
 
 # COMMAND ----------
 
-# MAGIC %sh ping ec2-35-162-8-53.us-west-2.compute.amazonaws.com
+# MAGIC %sh ping www.yahoo.com
 
 # COMMAND ----------
 
