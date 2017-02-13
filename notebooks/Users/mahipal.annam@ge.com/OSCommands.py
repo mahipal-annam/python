@@ -3,6 +3,16 @@
 
 # COMMAND ----------
 
+dbutils.fs.ls("/FileStore/tables/") 
+
+# COMMAND ----------
+
+# MAGIC %md ### 
+# MAGIC 1. This notebook was run against Spark 2.1.0-db2 (Scala 2.11) Version. So, please attach spark-xml_2.11 library to this cluster
+# MAGIC 1. Declare Schema for the XML File
+
+# COMMAND ----------
+
 # MAGIC %sh curl -v www.google.com
 
 # COMMAND ----------
