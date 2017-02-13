@@ -3,6 +3,10 @@
 
 # COMMAND ----------
 
+# MAGIC %sh curl -v www.google.com
+
+# COMMAND ----------
+
 # MAGIC %sh ls -l
 
 # COMMAND ----------
