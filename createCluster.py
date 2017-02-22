@@ -1,8 +1,8 @@
 import json, requests
 
 main_url = 'https://ge-digital.cloud.databricks.com/api/2.0/'
-dbricks_user = 'mahipal.annam@ge.com'
-dbricks_pass = 'Mahipal123#'
+dbricks_user = ''
+dbricks_pass = ''
 auth = (dbricks_user,dbricks_pass)
 
 payload = {
