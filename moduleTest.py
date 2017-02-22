@@ -2,8 +2,8 @@
 from dbClusterLib import *
 
 main_url = 'https://ge-digital.cloud.databricks.com/api/2.0/'
-dbricks_user = 'mahipal.annam@ge.com'
-dbricks_pass = 'Mahipal123#'
+dbricks_user = ' '
+dbricks_pass = ' '
 credentials = (dbricks_user,dbricks_pass)
 
 
