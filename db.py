@@ -4,7 +4,7 @@ import json, requests
 url = 'https://ge-digital.cloud.databricks.com/api/2.0/clusters/get'
 payload = {'cluster_id' : '0212-042220-waver12'}
 
-resp= requests.get(url=url, params=payload, auth=('mahipal.annam@ge.com','Mahipal123#'))
+resp= requests.get(url=url, params=payload, auth=(' ',' '))
 #print resp.cookies
 #print 'HTTP Headers: \n\n', resp.headers;
 result = resp.json()
