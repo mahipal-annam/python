@@ -1,8 +1,8 @@
 import json, requests
 
 main_url = 'https://ge-digital.cloud.databricks.com/api/2.0/'
-dbricks_user = 'mahipal.annam@ge.com'
-dbricks_pass = 'Mahipal123#'
+dbricks_user = ' '
+dbricks_pass = ' '
 credentials = (dbricks_user,dbricks_pass)
 
 
@@ -87,7 +87,7 @@ def stopCluster(c):
 	url = 'https://ge-digital.cloud.databricks.com/api/2.0/clusters/delete'
 	params = {'cluster_id' : p }
 	print "Cluster termination started"
-	resp = requests.post(url=url, data=json.dumps(params), auth=('mahipal.annam@ge.com','Mahipal123#'))
+	resp = requests.post(url=url, data=json.dumps(params), auth=(' ',' '))
 	print resp.status_code
 
 
